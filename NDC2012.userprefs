@@ -1,0 +1,57 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NDC2012/app/app.js">
+    <Files>
+      <File FileName="NDC2012/ContactService.cs" Line="32" Column="34" />
+      <File FileName="NDC2012/Contact.cs" Line="15" Column="24" />
+      <File FileName="NDC2012/AppHost.cs" Line="15" Column="28" />
+      <File FileName="NDC2012/Default.aspx" Line="34" Column="21" />
+      <File FileName="NDC2012/app/models/contact.js" Line="2" Column="9" />
+      <File FileName="NDC2012/app/collections/contacts.js" Line="3" Column="2" />
+      <File FileName="NDC2012/app/routers/contacts.js" Line="40" Column="16" />
+      <File FileName="NDC2012/app/app.js" Line="16" Column="28" />
+      <File FileName="NDC2012/Default.aspx.cs" Line="15" Column="65" />
+      <File FileName="NDC2012/app/views/contacts_index.js" Line="18" Column="19" />
+      <File FileName="NDC2012/app/templates/contacts/index.html" Line="2" Column="1" />
+      <File FileName="NDC2012/app/views/contact_list.js" Line="26" Column="35" />
+      <File FileName="NDC2012/app/templates/contacts/contact_list.html" Line="2" Column="26" />
+      <File FileName="NDC2012/app/templates/contacts/contact_list_item.html" Line="4" Column="20" />
+      <File FileName="NDC2012/app/views/contact_list_item.js" Line="10" Column="1" />
+      <File FileName="NDC2012/app/views/new_contact.js" Line="2" Column="18" />
+      <File FileName="NDC2012/app/views/contact_form.js" Line="33" Column="21" />
+      <File FileName="NDC2012/app/templates/contacts/form_fields.html" Line="54" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="NDC2012" expanded="True">
+            <Node name="app" expanded="True">
+              <Node name="collections" expanded="True" />
+              <Node name="models" expanded="True" />
+              <Node name="routers" expanded="True" />
+              <Node name="templates" expanded="True">
+                <Node name="contacts" expanded="True" />
+              </Node>
+              <Node name="views" expanded="True" />
+              <Node name="app.js" selected="True" />
+            </Node>
+            <Node name="Default.aspx" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

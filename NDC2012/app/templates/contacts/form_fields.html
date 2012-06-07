@@ -1,0 +1,55 @@
+<fieldset>
+	<div class="control-group">
+		<label class="control-label">Name</label>
+		<div class="controls">
+			<input id="contact-firstName" name="firstName" class="span2" type="text" value="{{firstName}}"/>
+			<input id="contact-lastName" name="lastName" class="span2" type="text" value="{{lastName}}"/>
+		</div>
+	</div>	
+	<div class="control-group">
+		<label class="control-label" for="company">Company</label>
+		<div class="controls">
+			<input id="contact-company" name="company" class="span4" type="text" value="{{company}}"/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="homePhone">Home phone</label>
+		<div class="controls">
+			<input id="contact-homePhone" name="homePhone" type="text" value="{{homePhone}}"/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="mobilePhobe">Mobile phone</label>
+		<div class="controls">
+			<input id="contact-mobilePhobe" name="mobilePhobe" type="text" value="{{mobilePhobe}}"/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="workPhone">Work phone</label>
+		<div class="controls">
+			<input id="contact-workPhone" name="workPhone" type="text" value="{{workPhone}}"/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="homeEmail">Home email</label>
+		<div class="controls">
+			<input id="contact-homeEmail" name="homeEmail" type="text" value="{{homeEmail}}"/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="workEmail">Work email</label>
+		<div class="controls">
+			<input id="contact-workEmail" name="workEmail" type="text" value="{{workEmail}}"/>
+		</div>
+	</div>
+	<hr/>
+	<div class="control-group">
+		<label class="control-label" for="note">Note</label>
+		<div class="controls">
+			<textarea id="contact-note" name="note">{{note}}</textarea>
+		</div>
+	</div>
+</fieldset>	
+<input class="btn btn-primary" type="submit" value="Done"/>
+{{#if id}}<a class="btn btn-danger" id="delete-contact-link">Delete</a>{{/if}}
+<a href="#">I'd rather not {{#if id}}edit this{{else}}create a{{/if}} contact</a>

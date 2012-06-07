@@ -1,0 +1,31 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<title>Super fancy contact manager</title>
+		<link href="css/bootstrap.css" rel="stylesheet"/>
+		<!--<link href="css/jquery.ios-list.css" rel="stylesheet" media="all" type="text/css"/>-->
+	    <script>window.JSON || document.write('<script src="/vendor/json2.js">\x3C/script>');</script>
+		<script src="vendor/jquery-1.7.2.js"></script>
+		<script src="vendor/underscore.js"></script>
+		<script src="vendor/backbone.js"></script>
+		<script src="vendor/backbone.support.js"></script>
+		<script src="vendor/handlebars-1.0.0.beta6.js"></script>
+		<script src="vendor/preloader.js"></script>
+		<!--<script src="vendor/jquery.ios-list.js"></script>-->
+		<script src="app/app.js"></script>
+		<script src="app/models/contact.js"></script>
+		<script src="app/collections/contacts.js"></script>
+		<script src="app/routers/contacts.js"></script>
+		<script src="app/views/contacts_index.js"></script>
+		<script src="app/views/contact_list.js"></script>
+		<script src="app/views/contact_list_item.js"></script>
+		<script src="app/views/new_contact.js"></script>
+		<script src="app/views/contact_form.js"></script>
+	</head>
+	<body>
+		<div id="app" class="container">
+			<div id="app-content" class="row">
+			</div>
+		</div>
+	</body>
+</html>
